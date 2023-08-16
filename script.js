@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }).then(() => {
         Swal.fire({
             title : 'Cara Main',
-            text : 'Jawab pertanyaan dengan huruf kecil dan benar, Ketika selesai tekan enter satu kali agar karakter kembali ketempat awa',
+            text : 'Jawab pertanyaan dengan huruf kecil dan benar, Ketika selesai tekan enter satu kali agar karakter kembali ketempat awal',
             confirmButtonText : 'next',
         }).then(()=>{
             Swal.fire({
